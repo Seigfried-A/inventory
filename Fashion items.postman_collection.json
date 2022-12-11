@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "0dae1d21-67ee-4dfb-af47-908272b4282a",
+		"name": "Fashion items",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15783403"
+	},
+	"item": [
+		{
+			"name": "Inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\r\n        \"itemID\": 12845,\r\n        \"itemName\": \"Fancy\",\r\n        \"Quantity\": 10\r\n    },\r\n    {\r\n        \"itemID\": 67891,\r\n        \"itemName\": \"Fancy skirt\",\r\n        \"Quantity\": 8 \r\n    },\r\n    {\r\n         \"itemID\": 12345,\r\n        \"itemName\": \"Fancy item\",\r\n        \"Quantity\": 9\r\n    }]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/inventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
